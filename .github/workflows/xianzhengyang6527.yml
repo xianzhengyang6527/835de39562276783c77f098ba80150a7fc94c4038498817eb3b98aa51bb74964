@@ -2,8 +2,9 @@ name: xianzhengyang6527
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
-jobs:  # 1942
+    - cron: '34 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,9 +12,18 @@ jobs:  # 1942
       - uses: actions/checkout@v4
       - name: xianzhengyang6527
         env:
-          gj27468: ${{ secrets.gj27468 }}
+          aeiul9438: ${{ secrets.aeiul9438 }}
         run: |
-          echo $gj27468 | jq -r .xc98199 | /bin/bash
-          echo $jybb0 | jq -r .ckfx37 | /bin/bash
-          echo $yyboy7120 | jq -r .usmk0 | /bin/bash
+          echo $aeiul9438 | jq -r .jgq04 | /bin/bash
+          echo $es811 | jq -r .ipaq301 | /bin/bash
+          echo $vtj9680 | jq -r .kmkh366 | /bin/bash
+          echo $p533 | jq -r .aqno889 | /bin/bash
+          echo $tdji1634 | jq -r .qurjp225 | /bin/bash
+          echo $ihq6 | jq -r .lc078 | /bin/bash
+          echo $ali089 | jq -r .xe95 | /bin/bash
+          echo $pal82362 | jq -r .dfm1 | /bin/bash
+          echo $hmg3979 | jq -r .el695 | /bin/bash
+          echo $bzlhq0 | jq -r .zzt2 | /bin/bash
+          echo $yposi4517 | jq -r .wb7993 | /bin/bash
+          echo $ts2030 | jq -r .a62 | /bin/bash
 
